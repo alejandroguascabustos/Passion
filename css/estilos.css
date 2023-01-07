@@ -1,0 +1,1009 @@
+/* variables */
+:root{
+--morado-color:#7624BE;
+--azul-color:#00A1F3;
+--rosa-color:#F300B2;
+--moradooscuro-color:#4B004B;
+--fucsia-color:#D60D59;
+--grisoscuro-color:#D5CACA;
+--moradoclaro-color:#950595;
+--blanco-color: white;
+--azulrey-color: #012DDC;
+--grismuyoscuro-color: #958E8C;
+--verde-color: #1FBB2F; 
+/* variables */
+/* box shadow */
+--box: 0px 0px 2px rgb(255,255,255);
+/* box shadow */
+}
+
+/* tamaño general */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* enlaces del header completo */
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+}
+
+/* Tamaño del logo "Passion" */
+div.nav-bar-3 a.logos {
+  color: White;
+  font-size: 28px;
+}
+
+/* //tamaño general del header */
+header{
+    width: 100%;
+    height: 80%;
+
+}
+
+.nav-bar-2{
+    margin: auto;
+}
+
+.nav-bar-3{
+    padding-top: 30px;
+    display: flex;
+    padding: 15px,15px, 15px, 15px; 
+    align-items: center  
+    
+}
+
+
+
+.nav-bar-4{
+    margin: auto;  
+}
+
+.nav-bar-5 a {
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+    background-color: none;
+    transition: 0.5s;
+    text-align: center;
+    margin-right: 15px;
+    border: groove;
+    border-width: 0.1px;
+    
+}
+.nav-bar-5 a:hover{
+    box-shadow: 0px 0px 30px 0px var(--azul-color);
+    background-color: var(--blanco-color);
+    color: var(--azul-color);
+    font-size: 15px;
+    border-radius: 25px;
+    border-color: 0px;
+    
+}
+
+.iniciosesionnav{
+  text-align: center;
+}
+
+li a{
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+
+/* INDEX */
+.box-loggin .title1-boxloggin{
+  align-items: flex-start;
+
+}
+
+
+
+
+
+/* REGISTROS */
+/* Como ajustar la imagen de fondo al navegador */
+body{ 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 0px;
+    font-size: 12px;
+    background-color:rgb(26, 3, 70) ;
+    
+}
+
+/* BANNER DE NAVEGACIÓN */
+/* Banner de navegación - Edita fondo, tamaño y espacio del banner */
+
+
+header a.nav-bar-3-1{
+  padding-top: 45px;
+  font-size: 68px;
+}
+
+
+
+/* SECCION CONTENIDO CENTRAL DE LA PAGINA */
+.main_section .box-inicial{
+    padding: 10%;
+    text-align: center;
+    color: var(--blanco-color);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title1{
+    text-align: center;
+    color: var(--blanco-color);
+    font-size: 23px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title2-color{
+  font-weight: medium;
+  color: var(--rosa-color);
+}
+
+.title-inicial{
+  font-weight: 100;
+  font-size: 45px;
+  padding-top: 15px;
+}
+
+.subtitle-inicial{
+  font-weight: 100;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+
+.products{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.product {
+    padding: 20px;
+    margin-bottom: -90px;
+}
+
+.content {
+    text-align: center;
+    margin: 12px;
+    padding: 15px 15px 10px 15px;
+    color: var(--blanco-color);
+    box-shadow: 0px 0px 2px 0px var(--azul-color);
+    border-radius: 18px;    
+    font-size: 15px;
+}
+
+.content:hover{
+    box-shadow: 0px 0px 4px 0px var(--blanco-color);
+    align-items: center;
+}
+
+.main_button{
+    width: 55%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: var(--rosa-color);
+    color: white;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 10px 5px 10px 5px;
+}
+
+.main_button:hover{
+    transform: translateY(5px);
+    background-color: var(--blanco-color);
+    color: var(--fucsia-color);
+}
+
+/* //¿PORQUE PASSION?////¿PORQUE PASSION?////¿PORQUE PASSION?////¿PORQUE PASSION?////¿PORQUE PASSION?// */
+
+.before-passion {
+  align-items: center;
+  font-size: 30px;
+  font-family: url('../fonts/NoirPro-Light.ttf');
+  font-weight: 90;
+  padding: 0px;
+}
+
+.color-before {
+  color: var(--rosa-color);
+
+}
+
+.color-before:hover {
+  color: var(--azul-color);
+  transition: 0.5s;
+}
+
+.images-clic{
+  align-items: center;
+  vertical-align: middle;
+}
+
+.before-passion-icons{
+  padding: 0px 60px 15px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.generalbefore{
+  margin: 40px;
+  padding: 5px;
+}
+
+.individualbefore{
+  margin: 45px 0px 45px 0px;
+}
+
+.paragraph-before{
+  text-align: center;
+  padding: 8px;
+}
+
+
+
+/* //¿PORQUE PASSION?////¿PORQUE PASSION?////¿PORQUE PASSION?////¿PORQUE PASSION?////¿PORQUE PASSION?// */
+
+/* FOOTER INICIO*//* FOOTER INICIO*//* FOOTER INICIO*//* FOOTER INICIO*//* FOOTER INICIO*/
+footer{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    font-size: 15px;
+    padding-top: 125px;
+}
+
+a.logos-footer{
+  color: White;
+  font-size: 28px;
+  text-decoration: none;
+
+}
+
+.follows{
+    padding: 20px;
+}
+
+a .follows{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+a.socialmedia{
+  text-decoration: none;
+}
+
+/* Efecto Over, o feedback que da el botón cambiar de color  */
+a:hover{
+    color: var(--grisoscuro-color);
+}
+
+.socialmedia{
+    padding: 20px 20px 20px 20px;
+    box-shadow: var(--blanco-color);
+}
+
+.credits{
+    padding: 5px;
+    color: var(--morado-color);
+}
+/* FOOTER INICIO */
+
+/* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES */
+
+
+section{
+  margin: 15px;
+  text-align: right;
+  font-size: 25px;
+  font-family: url('../fonts/NoirPro-Light.ttf');
+  text-decoration: none;
+}
+
+.textservices{
+  padding: 100px 40px 15px 15px;
+  color: var(--blanco-color);
+  font-size: 25px;
+}
+.mensagge-services-color{
+  color: var(--azul-color);
+}
+
+/* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES */
+
+/* INICIO SESION/ */
+.box-login12{
+  background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 8px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 17px;
+    text-align: center;
+    border-radius: 25px;
+
+
+}
+
+
+/* REGISTRO EMPRESAS *//* REGISTRO EMPRESAS *//* REGISTRO EMPRESAS *//* REGISTRO EMPRESAS *//* REGISTRO EMPRESAS*/
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    align-items: flex-end;
+    margin: 0px;
+    padding: 0px;
+}
+
+  body {
+    font-family: sans-serif;
+    color: var(--blanco-color);
+}
+
+  .title-sign{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: lighter;
+    font-family: url('../fonts/NoirPro-Light.ttf');
+    font-size: 30px;
+    text-align: right;
+    margin-right: 235px;
+    transition-duration: 1s;
+}
+
+  .title-sign-color{
+    color: #D60D59;
+    
+}
+  
+  form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #7624BE;
+    border-radius: 20px;
+}
+
+
+
+  
+
+  
+  input[type="text"],
+  input[type="Id"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="password"],
+  textarea,
+  select
+   {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 8px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 17px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+  input:hover{
+  border: 0.5px solid var(--rosa-color);
+}
+  
+  textarea {
+    resize: vertical;
+    max-height: 300px;
+}
+
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align-last: center;  
+    margin: inherit;
+}
+
+div .selectoptionscompanies{
+  padding-bottom: 1px;
+}
+
+.optionid{
+  margin: 50px;
+  cursor: pointer;
+}
+
+  
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: var(--azul-color);
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 25px;
+    width: 100%;
+    border: none;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+}
+
+  button:hover{
+    background-color: var(--blanco-color);
+    color: var(--morado-color);
+    cursor: pointer;
+}
+  
+  fieldset {
+    margin-bottom: 4px;
+    border: none;
+}
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+  .titleform{
+    text-align: center;
+    font-size: 20px;
+}
+  
+  label {
+    display: flex;
+    margin-bottom: 8px;
+}
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+}
+  
+  .number {
+    background-color: #6195FF;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+}
+
+  .politicsdata{
+    margin: 10px;
+}
+
+  .politicsdata-conditions{
+    font-size: 12px;
+    color: var(--azul-color);
+    padding: 0px;
+    text-align: center;
+}
+  
+    form {
+      max-width: 480px;
+      margin-right: 50%;
+}
+
+/* REGISTRO PERSONAS REGISTRO PERSONAS REGISTRO PERSONAS REGISTRO PERSONAS REGISTRO PERSONASREGISTRO PERSONAS REGISTRO */
+
+.body-registroperson{
+  font-family: 'Nunito', sans-serif;
+  color: var(--blanco-color);
+  padding: 0px;
+  margin: 0px;
+    
+}
+
+.title-sign-person{
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: lighter;
+  font-family: url('../fonts/NoirPro-Light.ttf');
+  font-size: 30px;
+  text-align: left;
+  margin-left: 192px;
+  transition-duration: 1s;
+}
+
+.title-sign-color-person{
+  color: var(--azul-color);
+}
+
+.form-registr-person{
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  font-size: 35px;
+}
+
+input .form-registro-person [type="text"],
+  input .form-registro-person [type="Id"],
+  input .form-registro-person [type="date"],
+  input .form-registro-person [type="datetime"],
+  input .form-registro-person [type="email"],
+  input .form-registro-person [type="number"],
+  input .form-registro-person [type="search"],
+  input .form-registro-person [type="tel"],
+  input .form-registro-person [type="time"],
+  input .form-registro-person [type="url"],
+  textarea ,
+  select
+   {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    max-height: 120px;
+    margin: 0;
+    outline: 0;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 17px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: inherit;
+}
+
+.typedocument .form-registro-person::placeholder{
+    color: #D5CACA;
+}
+
+.titleformperson{
+  text-align: center;
+  font-size: 22px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin: 1px;
+  display: block;
+  font-weight: normal;
+}
+.titleformpersoninformation{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.subtitleform{
+  text-align: center;
+  font-weight: 15px;  
+  font-size: 16px;
+  font-family: inherit;
+  padding: 2.5px;
+}
+.form-information-bas{
+  padding-bottom: 1px;
+}
+.formpersondecoration{
+  text-align: center;
+}
+
+/* REGISTRO PERSONAS REGISTRO PERSONAS REGISTRO PERSONAS REGISTRO PERSONAS REGISTRO PERSONASREGISTRO PERSONAS REGISTRO */
+
+/* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES */
+
+.productssolutions{
+  display: flex;
+  justify-content: center;
+  padding-top: -17px;
+}
+
+.title-inicial-solutions{
+  text-align: left;
+  margin-left: 160px;
+  margin-top: 19px;
+  margin-bottom: -34px;
+}
+
+.contentsolutions {
+  display: block;
+  text-align: center;
+  margin: 12px;
+  padding: 15px 15px 10px 15px;
+  color: var(--blanco-color);
+  transform-box: 50px 50px 50px 50px;
+  box-shadow: 0px 0px 8px 0px var(--azul-color);
+  border-radius: 18px;    
+  font-size: 15px;
+  max-width: 315px;
+  max-height: 500px;
+  min-width: 315px;
+  min-height: 200px;
+
+}
+
+.contentsolutions:hover{
+  box-shadow: 0px 0px 4px 0px var(--blanco-color);
+  align-items: center;
+}
+
+.imagesproductsolutions{
+  margin: 19px;
+
+}
+
+#titlesolutions{
+  margin: 7px;
+}
+
+.contentparagraphsolutions{
+  margin: 15px;
+  padding: 5px;
+  
+}
+
+.main_buttonsolutions {
+    padding: 9px 39px 9px 39px;
+    color: var(--blanco-color);
+    background-color: var(--rosa-color) ;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 25px;
+    width: 75%;
+    border: none;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+}
+
+  .main_buttonsolutions:hover{
+    background-color: var(--blanco-color);
+    color: var(--morado-color);
+    cursor: pointer;
+}
+/* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES *//* SOLUCIONES */
+
+/* PANTALLA VENTA *//* PANTALLA VENTA *//* PANTALLA VENTA *//* PANTALLA VENTA *//* PANTALLA VENTA *//* PANTALLA VENTA */
+
+/* PRODUCTO A COMPRAR */
+.productssolutionssale{
+  display: flex;
+  justify-content: center;
+  padding-top: -17px;
+  padding: 10px;
+  
+}
+
+.productsolutionssale {
+  padding: 14px;
+  color: var(--grismuyoscuro-color);
+}
+
+.title-inicial-solutions-sale{
+  text-align: left;
+  margin-left: 160px;
+  margin-top: -34px;
+  margin-bottom: -34px;
+}
+
+.contentsolutionssale {
+  display: block;
+  text-align: center;
+  margin: 12px;
+  padding: 15px 15px 10px 15px;
+  color: var(--blanco-color);
+  transform-box: 50px 50px 50px 50px;
+  box-shadow: 0px 0px 8px 0px var(--azul-color);
+  border-radius: 18px;    
+  font-size: 22px;
+  max-width: 315px;
+  max-height: 600px;
+  min-width: 315px;
+  min-height: 600px;
+
+}
+
+.contentsolutionssale:hover{
+  box-shadow: 0px 0px 4px 0px var(--blanco-color);
+  align-items: center;
+}
+
+.imagesproductsolutionssale{
+  margin: 19px;
+
+}
+
+#titlesolutionssale{
+  margin: 7px;
+  font-size: 50px;
+}
+
+.contentparagraphsolutionssale{
+  margin: 15px;
+  padding: 5px;
+  font-size: 25px;
+  
+}
+
+.main_buttonsolutionssale {
+    padding: 9px 39px 9px 39px;
+    color: var(--blanco-color);
+    background-color: var(--rosa-color) ;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 25px;
+    width: 75%;
+    
+    margin-bottom: 10px;
+}
+
+  .main_buttonsolutionssale:hover{
+    background-color: var(--blanco-color);
+    color: var(--morado-color);
+    cursor: pointer;
+}
+
+/* INFORMACIÓN DEL CLIENTE */
+
+.solutionssaletitle{
+  font-size: 27px;
+  margin: 30px;
+  font-weight: 100;
+}
+
+.contentsolutionssale{
+  margin: 15px;
+  padding-top: 15px;
+}
+
+.formsale {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: none;
+  border-radius: 20px;
+}
+
+/* INICIO SESIÓN */
+#login form #formsing{
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+
+
+}
+
+/* rastrador de talento */
+.navbar-navbar-light-bg-light{
+
+ margin-left: 500px;
+ margin-right: 500px;
+}
+
+.lupa{
+  display: block;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 8px;
+}
+.lupa-title{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-rastreo{
+  height: 36px;
+  background-color: transparent;
+  border: groove;
+  border-color: #00A1F3;
+  border-width: 2px;
+}
+
+.talents{
+  text-align: center;
+  list-style: armenian;
+}
+
+
+/* rastrador de talento */
+
+/* Iniciar Sesion */
+
+
+.titletextlogin{
+  margin-left: 45%;
+  font-size: 300%;
+  text-align: center;
+  margin-top: 2%;
+  padding-top: 85px;
+}
+
+
+.dropdown-menualone{
+  margin-top: 5%;
+}
+
+.titlelogin{
+  font-size: 25px;
+  text-align: center;
+}
+
+.px-4py-3{
+  
+  max-width: 350px;
+  margin-left: 16%;
+  padding: 10px 20px;
+  background: transparent;
+  border-radius: 20px;
+  border: groove;
+  border-color: var(--azul-color);
+
+}
+.form-check .form-check-label{
+display: inline-block;
+margin-bottom: 15px;  
+}
+.dropdown-divider{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.px-4py-6{
+  margin-top: 20%;
+}
+.btbtn-login{
+padding: 3%;
+font-size: 15px;
+}
+.bt-login1{
+  text-align: center;
+  margin: 33px;
+}
+
+
+
+/* INICIO SESION HTML INDIVIDUAL */
+.px-4py-3alone{
+  
+  max-width: 350px;
+  background: transparent;
+  border-radius: 20px;
+  border: groove;
+  border-color: var(--azul-color);
+  margin: auto;
+  text-align: center;
+
+} 
+
+/* INICIO SESION HTML INDIVIDUAL */
+
+
+/* Iniciar Sesion */
+
+/* BOTON DE REGISTRO DEL INDEX */
+.btbtn-registro{
+  background-color: #00A1F3;
+  border-radius: 25px;
+  padding: inherit;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 12%;
+  padding-right: 15%;
+}
+
+.dropdown-item{
+  padding-top: 15px;
+}
+/* BOTON DE REGISTRO DEL INDEX */
+
+
+/* LISTADO DE TALENTOS */
+.talents{
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+
+}
+
+.talent {
+  padding: 20px;
+  margin-bottom: -90px;
+  
+}
+.inicialtitletalent{
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.contenttalent {
+  text-align: center;
+  margin: 12px;
+  padding: 15px 15px 10px 15px;
+  color: var(--blanco-color);
+  box-shadow: 0px 0px 2px 0px var(--azul-color);
+  border-radius: 18px;    
+  font-size: 15px;
+  max-width: 300px;
+  max-height: 400px;
+  min-width: 200px;
+  min-height: 300px;
+
+}
+
+.contenttalent:hover{
+  box-shadow: 0px 0px 4px 0px var(--blanco-color);
+  align-items: center;
+  transition: 0s;
+
+}
+
+.main_buttontalent{
+  width: 96%;
+  padding: 10px;
+  font-size: 15px;
+  background-color: var(--rosa-color);
+  color: white;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 10px 5px 10px 5px;
+}
+
+.main_buttontalent:hover{
+  transform: translateY(5px);
+  background-color: var(--verde-color);
+  color: var(--grisoscuro-color);
+}
+
+/* LISTADO DE EMPLEOS */
+.imagemobile{
+border-radius: 60px;
+}
+
+.buttonsempleos{
+  display: flex;
+
+}

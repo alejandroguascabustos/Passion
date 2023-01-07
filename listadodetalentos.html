@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon1.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <title>Passion | Talentos</title>
+    
+</head>
+<body class="background" background="images/index-01.png">
+
+    
+    <!-- Aqui empieza el panel de navegación -->
+    <header class="nav-bar-1 fadeInDown">
+        <div class="nav-bar-2">
+        <div class="nav-bar-2">
+            <div class="nav-bar-3" class="menu-mobile">
+                <a href="index.html"><img class="nav-bar-3-1" src="images/logo.png" width="150"height="85"></a>
+        
+                <nav class="nav-bar-4">
+                <ul>
+                    <li><a href="servics.html" class="nav-link">Servicios</a></li>
+                    <li><a href= "https://api.whatsapp.com/send?phone=573224132452&text=&source=&data=" class="nav-link" target="_blank">Contactanos</a></li>
+                </ul>
+                </nav>
+                
+                <div class="nav-bar-5">
+                    <a href="iniciosesion.html"><span class="icon-nav"></span>Inicia Sesión</a>
+                </div>
+            </div>
+       </div>
+    </header>
+ <!-- Aqui acaba el navbar -->
+
+    <!-- Productos -->
+
+    <div>
+        <h1 class="inicialtitletalent">Estos son los talentos que encontramos para tí!..🌠</h1>
+    </div>
+
+    <!-- Busqueda -->
+
+    <div class="talents">
+        <div class="talent">
+         <div class="contenttalent">
+             <div class="image_content">
+                <img  class="imagemobile" src="images/smile.png" width="120" height="120" alt="">
+             </div>  
+               <h1 class="h1mobile" id="titletalents">Programador</h1>
+               <p class="talentprofesion" >Alejandro Guasca Bustos</p> 
+               <p class="talentprofesion" >25 años</p> 
+               <p class="talentprofesion" >7 Años de experiencia</p> 
+               <p class="talentprofesion" >$1.200.000</p> 
+               <a href="#"><button href="" class="main_buttontalent">Citar</button></a>
+         </div>
+        </div>
+        <div class="talent">
+         <div class="contenttalent">
+             <div class="image_content">
+                <img  class="imagemobile" src="images/smile.png" width="120" height="120" alt="">
+             </div>  
+               <h1 class="h1mobile" id="titletalents">Programador</h1>
+               <p class="talentprofesion" >Alejandro Guasca Bustos</p> 
+               <p class="talentprofesion" >21 años</p> 
+               <p class="talentprofesion" >4 Años de experiencia</p> 
+               <p class="talentprofesion" >$1.000.000</p> 
+               <a href="#"><button href="" class="main_buttontalent">Citar</button></a>
+         </div>
+        </div>
+        <div class="talent">
+         <div class="contenttalent">
+             <div class="image_content">
+                <img  class="imagemobile" src="images/smile.png" width="120" height="120" alt="">
+             </div>  
+               <h1 class="h1mobile" id="titletalents">Programador</h1>
+               <p class="talentprofesion" >Alejandro Guasca Bustos</p> 
+               <p class="talentprofesion" >27 años</p> 
+               <p class="talentprofesion" >5 Años de experiencia</p> 
+               <p class="talentprofesion" >$1.500.000</p> 
+               <a href="#"><button href="" class="main_buttontalent">Citar</button></a>
+         </div>
+        </div>
+        <div class="talent">
+         <div class="contenttalent">
+             <div class="image_content">
+                <img  class="imagemobile" src="images/smile.png" width="120" height="120" alt="">
+             </div>  
+               <h1 class="h1mobile" id="titletalents">Programador</h1>
+               <p class="talentprofesion" >Alejandro Guasca Bustos</p> 
+               <p class="talentprofesion" >29 años</p> 
+               <p class="talentprofesion" >7 Años de experiencia</p> 
+               <p class="talentprofesion" >$2.800.000</p> 
+               <a href="#"><button href="" class="main_buttontalent">Citar</button></a>
+         </div>
+        </div>
+
+        
+        
+
+       
+    </div>
+        
+    </div>
+    
+      </header>
+      <main class="row">
+        <ul class="talents">
+          
+          <a href="#" class="talents-item"></a>
+        </ul>
+        
+      </main>
+
+
+
+
+
+    <!-- Busqueda -->
+        <script>
+
+            let historias=[
+            {numero:'813',descripcion:'Psicologo'},
+            {numero:'770',descripcion:'ingeniero'},
+            {numero:'769',descripcion:'Diseñador'},
+            {numero:'771',descripcion:'Pintor'},
+            {numero:'772',descripcion:'Conductor'}
+            ]
+            let lista= document.querySelector(".talents")
+            let txtbusca= document.getElementById("search")
+
+            txtbusca.onkeyup= function(){ 
+            lista.innerHTML=''
+            let texto= txtbusca.value.toLowerCase()
+            
+            for(let historia of historias){
+                let res= historia.descripcion.toLowerCase()
+                if(res.indexOf(texto)!==-1){
+                lista.innerHTML+=`
+                <a href='#' class='talents-item'>${historia.descripcion}</a>
+                `
+                }
+                
+            }
+            if(lista.innerHTML==""){
+                lista.innerHTML=`
+                <a href='#' class='talents-item'>No hay resultados</a>
+                `
+                }
+            }
+        </script>
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+<Footer class="footer-index" type="text"> 
+       
+    <div class="logo-final-index">
+        <a href="#"><img src="images/logo.png" width="150" height="85" alt=""></a>
+    </div>
+    <div>
+        <p class="follows">¡Siguenos <br> ahí encontraras mas información..! </p>
+    </div>
+        <div>
+            <ul class="footer-follow">
+                    <div class="network">
+                        <a href=https://www.youtube.com/" target="_blank"><img class="mobilenetworkyou"  src="images/youtube.png" width="70" height="65" alt=""></a>
+                        <a href="https://www.linkedin.com/company/passionempleos"target="_blank"><img class="mobilenetwork"  src="images/linkedin1.png" width="70" height="65" alt=""></a>
+                        <a href="https://www.instagram.com/passionempleos/" target="_blank"><img class="mobilenetwork"  src="images/instagram1.png" width="70" height="65" alt=""></a>
+                        <a href="https://twitter.com/passionempleos" target="_blank"><img class="mobilenetwork"  src="images/twitter1.png" width="70" height="65" alt=""></a>
+                        <a href="https://api.whatsapp.com/send?phone=573224132452&text=&source=&data=" target="_blank"><img class="mobilenetwork"  src="images/whatsapp1.png" width="70" height="65" alt=""></a>
+                    </div>    
+            </ul>
+        </div>
+    <div class="socialmedia">
+        <a href="#">Preguntas frecuentes</a> 
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Protección de datos</a>
+        <a href="#">Ayuda</a>
+    </div>
+
+    <div class="footer-copyright">
+        <p>Copyright © 2020. All Rights Reserved. Designed by<a class="credits" href="https://co.linkedin.com/in/alejandroguascabustos"target="_blank">Passion</a></p>
+    </div>
+</Footer>
+</html>

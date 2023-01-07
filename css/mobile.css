@@ -1,0 +1,159 @@
+/* INDEX INICIO */
+@media (max-width: 768px) { 
+
+    /* banner de navegacion, aplica para todos los index */
+    
+    .nav-bar-3{
+        display: block;
+        padding: 6px;
+        margin: 4px;
+        
+    }
+    
+    .nav-bar-4{
+        display: block;
+        padding: 10px;
+        margin: 15px;
+        text-align: center;
+    }
+    .nav-bar-5{
+        display: block;
+        padding: 10px;
+        margin: 15px;
+        text-align: center;
+
+    }
+
+    li a{
+        text-decoration: none;
+        padding: initial;
+    }
+
+    /* banner de navegacion, aplica para todos los index */
+
+    /* productos */
+    .products{
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+        display: block;
+    }
+
+    .content{
+        box-shadow: none;
+        padding: 30px;
+    }
+
+    /* porque pasion */
+    .before-passion-icons{
+        display: block;
+        align-items: center;
+    }
+
+    .generalbefore{
+        padding: 0px;
+        margin: auto;
+    }
+
+    p .paragraph-before{
+       margin: auto;
+    }
+
+    .imagemobile{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* footer, aplica para todos los index */
+
+    /* iconos de redes sociales */
+    .mobilenetwork{
+        padding: 10px;
+        width: 64px;
+        height: 61px;
+    }
+
+    /* icono de youtube, tuve que separarlo porque es mas ancho que el resto */
+    .mobilenetworkyou{
+        padding: 10px;
+        width: 65px;
+        height: 64px;
+    }
+}
+/* FIN INDEX INICIO */
+
+/* INDEX SERVICES */
+
+@media (max-width: 768px) { 
+    
+    .body_services_mobile{
+        font-family: url('../fonts/NoirPro-Light.ttf');
+        font-size: 16px;
+        padding-top: 25px;
+    }
+
+}
+
+/* INDEX REGISTRO EMPRESAS */
+
+@media (max-width: 768px) {
+
+    #title-sign-mobile {
+        margin-right: 15px;
+        font-size: 16px;
+        padding-bottom: 50px;
+        padding-top: 26px;
+    }
+
+    #form-company{
+        padding: 10px;
+        margin: 37px;
+    }
+    
+
+}
+/* INDEX REGISTRO EMPRESAS */
+
+/* INDEX REGISTRO PERSONAS */
+
+@media (max-width: 768px) {
+
+    #title-sign-personmobile{
+        
+            margin-left: 15px;
+            font-size: 16px;
+            padding-bottom: 50px;
+            padding-top: 26px;
+            display: block;
+    }
+
+
+    #form-company-person-mobile{
+        padding: 10px;
+        margin: 37px;
+    }
+    
+    legend {
+        display: none;
+    }
+
+}
+/* INDEX REGISTRO PERSONAS */
+
+/* INDEX SOLICIONES *//* INDEX SOLICIONES *//* INDEX SOLICIONES *//* INDEX SOLICIONES *//* INDEX SOLICIONES *//* INDEX SOLICIONES */
+@media (max-width: 768px) {
+
+    .productssolutions{
+        display: block;
+        justify-content: center;
+    }
+
+    .title-inicial-solutions{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: -34px;
+        margin-bottom: -34px;
+        font-size: 29px;
+    }
+}
+/* INDEX SOLICIONES *//* INDEX SOLICIONES *//* INDEX SOLICIONES *//* INDEX SOLICIONES *//* INDEX SOLICIONES *//* INDEX SOLICIONES */

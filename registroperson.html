@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon1.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Passion | Registro Personas</title>
+</head>
+<body class="body-registroperson" background="images/registroperson.png">
+    <!-- Aqui empieza el panel de navegación -->
+    <header class="nav-bar-1">
+        
+        <div class="nav-bar-2">
+          <div class="nav-bar-3">
+            <a href="index.html"><img class="nav-bar-3-1" src="images/logo.png" width="150"height="85"></a>
+    
+            <nav class="nav-bar-4">
+              <ul>
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="servics.html" class="nav-link">Servicios</a></li>
+                <li><a href= "https://api.whatsapp.com/send?phone=573224132452&text=&source=&data=" class="nav-link" target="_blank">Contactanos</a></li>
+              </ul>
+            </nav>
+            <div class="nav-bar-5">
+              <a href="iniciosesion.html"><span class="icon-nav"></span>Inicia Sesión</a>
+          </div>
+        </div>
+      </header>
+ <!-- Aqui acaba el navbar -->
+
+<!-- inicia el formulario para empresas -->
+    <p class="title-sign-person" id="title-sign-personmobile">¡Bienvenidos quienes <br> buscan un empleo que <span class="title-sign-color-person"> <strong> apasione</strong></span>♡♡!</p>
+<!--Caja de registro--> 
+<form action="" method="post" class="form-company-person" id="form-company-person-mobile" >
+    <h1 class="form-registr-person">Registrate</h1>
+    <h2 class="titleformperson" >Te pediremos muy pocos datos, no te preocupes</h2>
+    <fieldset class="form-information-bas">
+        <legend class="titleformperson">Información personal</legend>
+        <label>
+          <input class="form-registro-person" type="text" id="name" name="user_name" placeholder="Nombres" >  
+        </label>
+        <label>
+          <input class="form-registro-person" type="email" id="lastname" name="user_lastname" placeholder="Apellidos">
+        </label>
+          <p class="subtitleform" >Tipo de documento</p>
+      <select class="typedocumentperson" id="typedocument" name="tipodocument">
+        <optgroup type="text" class="optionidperson" label="Selecciona tu tipo de documento" placeholder="Tipo de documento">
+            <option class="typedocuments" value="id1">Cedula de ciudadania</option> 
+            <option class="typedocuments" value="id2">Cédula de extranjería</option> 
+            <option class="typedocuments" value="id3">Pasaporte</option> 
+        </optgroup>
+      </select>
+
+      <label>
+        <input class="form-registro-person" type="text" id="numberidentification" name="user_identificationumber" placeholder="Numero de identificación">
+      </label>  
+      <legend class="titleformperson" id="titleformpersonmobile" >Información laboral</legend>
+          <p class="subtitleform" >Profesion</p>
+          <select id="jobs" name="user_job">
+            <optgroup label="Ocupación">
+              <option value="1">Abogado</option>
+              <option value="2">Administrador</option>
+              <option value="3">Almacenista</option>
+              <option value="4">Analista</option>
+              <option value="5">Asesor</option>
+              <option value="7">Asistente</option>
+              <option value="8">Asistente de investigación</option>
+              <option value="9">Auditor</option>
+              <option value="10">Auxiliar</option>
+              <option value="11">Auxiliar de vuelo</option>
+              <option value="12">Botones</option>
+              <option value="13">Cajero</option>
+              <option value="14">Camarera</option>
+              <option value="15">Comunicador social</option>
+              <option value="16">Conductor</option>
+              <option value="17">Conserje</option>
+              <option value="18">Consultor</option>
+              <option value="19">Contador</option>
+              <option value="20">Contralor</option>
+              <option value="21">Coordinador</option>
+              <option value="22">Cuñero</option>
+              <option value="23">Despachador</option>
+              <option value="24">Dibujante</option>
+              <option value="25">Director</option>
+              <option value="26">Docente o Profesor</option>
+              <option value="27">Editor</option>
+              <option value="28">Ejecutivo</option>
+              <option value="29">Encuellador</option>
+              <option value="30">Enfermero (a)</option>
+              <option value="31">Entrenador/Capacitador</option>
+              <option value="32">Geofisico</option>
+              <option value="33">Gerente</option>
+              <option value="34">Gerente General</option>
+              <option value="35">Hostess</option>
+              <option value="36">Ingeniero</option>
+              <option value="37">Inspector</option>
+              <option value="38">Jefe</option>
+              <option value="39">Maitress</option>
+              <option value="40">Medico</option>
+              <option value="41">Mensajero</option>
+              <option value="42">Mercaderista</option>
+              <option value="43">Mesero</option>
+              <option value="44">Odontólogo</option>
+              <option value="45">Operador de equipos pretroleros</option>
+              <option value="46">Operario</option>
+              <option value="47">Practicante</option>
+              <option value="48">Preparador de alimentos</option>
+              <option value="49">Presidente</option>
+              <option value="50">Profesional</option>
+              <option value="51">Profesional técnico en perforación</option>
+              <option value="52">Profesional técnico en HSE</option>
+              <option value="53">Programador</option>
+              <option value="54">Programador Fullstack</option>
+              <option value="55">Promotor </option>
+              <option value="56">Recepcionista</option>
+              <option value="57">Redactor</option>
+              <option value="58">Reportero</option>
+              <option value="59">Representante de ventas</option>
+              <option value="60">Residente</option>
+              <option value="61">Revisor fiscal</option>
+              <option value="62">Secretaria</option>
+              <option value="63">Subdirector</option>
+              <option value="64">Subgerente</option>
+              <option value="65">Supernumerario</option>
+              <option value="66">Supervisor</option>
+              <option value="67">Técnico</option>
+              <option value="68">Técnico de mantenimiento</option>
+              <option value="69">Trader</option>
+              <option value="70">Vendedor</option>
+              <option value="71">Vicepresidente</option>
+              <option value="72">Visitador Médico</option>
+              <option value="73">Webmaster</option>
+            </optgroup>
+            </select>
+      <p class="subtitleform" >Perfil Profesional</p>      
+      <textarea class="box-text-registr-person" id="bio" name="user_bio" placeholder="¿Quien eres?..."></textarea>
+        
+      <p class="subtitleform" >¿Cuantos años de experiencia laboral tienes?</p>
+        <select class="typedocumentperson" id="type" name="tipodocument">
+          <optgroup type="text" class="optionidperson" label="¿Cuantos años de experiencia laboral tienes?">
+              <option class="typedocuments" value="id1">Menos de 1 año</option> 
+              <option class="typedocuments" value="id2">1 a 2 años</option> 
+              <option class="typedocuments" value="id3">2 a 3 años</option> 
+              <option class="typedocuments" value="id3">4 a 6 años</option> 
+              <option class="typedocuments" value="id3">6 a 8 años</option> 
+              <option class="typedocuments" value="id3">8 a 12 años</option> 
+              <option class="typedocuments" value="id3">12 a 18 años</option> 
+              <option class="typedocuments" value="id3">18 a 25 años</option> 
+              <option class="typedocuments" value="id3">Mas de 30 años</option> 
+          </optgroup>
+        </select>
+
+    <p class="subtitleform" >¿Cuanto dinero aspiras a ganar?</p>
+    <select class="typedocumentperson" id="type" name="tipodocument">
+      <optgroup type="text" class="optionidperson" label="¿Cuanto dinero aspiras a ganar?">
+          <option class="typedocuments" value="id1">$ 1.000.000</option> 
+          <option class="typedocuments" value="id2">$ 2.000.000</option> 
+          <option class="typedocuments" value="id3">$ 4.000.000</option> 
+          <option class="typedocuments" value="id3">$ 5.000.000</option> 
+          <option class="typedocuments" value="id3">$ 6.000.000</option> 
+          <option class="typedocuments" value="id3">$ 7.000.000</option> 
+          <option class="typedocuments" value="id3">$ 8.000.000</option> 
+          <option class="typedocuments" value="id3">$ 9.000.000</option> 
+          <option class="typedocuments" value="id3">$ 10.000.000</option> 
+          <option class="typedocuments" value="id3">$ 11.000.000</option> 
+          <option class="typedocuments" value="id3">$ 12.000.000</option> 
+          <option class="typedocuments" value="id3">$ 15.000.000</option> 
+          <option class="typedocuments" value="id3">$ 18.000.000</option> 
+          <option class="typedocuments" value="id3">$ 21.000.000</option> 
+          <option class="typedocuments" value="id3">Más de $ 24.000.000</option> 
+    </optgroup>
+    </select>
+
+    <legend class="titleformperson">Tu experiencia laboral</legend>
+    <p class="subtitleform" >Ultima empresa en la que trabaste</p>
+    <label>
+      <input class="form-registro-person" type="text" id="name" name="user_name" placeholder="..." >
+    </label>
+      <p class="subtitleform" >Sector de la empresa</p>
+    <select id="Nivelescargo" name="user_job">
+        <optgroup label="Sector empresarial">
+          <option value="1">Agropecuario</option>
+          <option value="2">Servicios</option>
+          <option value="3">Tndustrial</option>
+          <option value="4">Transporte</option>
+          <option value="5">Comercio</option>
+          <option value="7">Financiero</option>
+          <option value="8">Construcción</option>
+          <option value="9">Minero y energético</option>
+          <option value="10">Solidario</option>
+          <option value="10">Comunicaciones</option>
+        </optgroup>
+      </select>
+
+    <p class="subtitleform" >Cargo que ocupabas</p>
+    <label>
+      <input class="form-registro-person" type="text" id="name" name="user_name" placeholder="..."> 
+    </label>
+  
+      <p class="subtitleform" >Logros obtenidos</p>      
+      <textarea class="box-text-registr-person" id="bio" name="user_bio" placeholder="Cuentanos tus logros en esta empresa..."></textarea>
+      
+      <legend class="titleformperson">Datos de esta empresa</legend>
+          <p class="subtitleform">Telefono</p>
+          <label>
+            <input class="form-registro-person" type="text" id="phonecompany" name="user_name" placeholder="777-777-777"> 
+          </label> 
+      
+          <legend class="titleformperson">Tus estudios</legend>
+            <p class="subtitleform">¿Cual es tu titulo academico actual?</p>
+            <label>
+          <input class="form-registro-person" type="text" id="citycompany" name="user_name" placeholder="..."> 
+          </label>
+           
+          <legend class="titleformperson">Ya casi terminamos.. :)</legend>
+          <p class="formpersondecoration">.</p>
+          <p class="formpersondecoration">.</p>
+          <p class="formpersondecoration">.</p>
+          <p class="formpersondecoration">.</p>
+          <legend class="titleformperson">Cuéntanos cuales son tus Pasiones ♥ </legend>
+          <p class="subtitleform">¿Que te motiva?</p>
+          <label>
+          <input class="form-registro-person" type="text" id="citycompany" name="user_name" placeholder="..."> 
+          </label>
+          <p class="subtitleform">¿Que metas tienes a 6 meses?</p>
+          <label>
+          <input class="form-registro-person" type="text" id="citycompany" name="user_name" placeholder="..."> 
+          </label>
+          <p class="subtitleform">¿Que meta tienes a 12 meses?</p>
+          <label>
+          <input class="form-registro-person" type="text" id="citycompany" name="user_name" placeholder="..."> 
+          </label>
+          <p class="subtitleform">¿Que puedes aportar a la empresa en el primer mes?</p>
+          <label>
+          <input class="form-registro-person" type="text" id="citycompany" name="user_name" placeholder="..."> 
+          </label>
+          <p class="subtitleform">¿Que haces en tus tiempos libres?</p>   
+          <input class="form-registro-person" type="text" id="citycompany" name="user_name" placeholder="...">    
+           
+          
+
+
+
+</fieldset>
+    <!--datos -->
+    
+    <!--Cargar Datos-->
+    <button type="submit">Cargar Datos</button>
+    <!--Cargar Datos-->
+    <span>
+      Entendemos cuan valiosos son tus datos, por esto debemos 
+      darte a conocer <a href="index.html"class="politicsdata-conditions"> las políticas y como manejaremos tus 
+      datos,</a> gracias por entender.
+    </span>
+  
+</form>
+
+</body>
+<Footer type="text"> 
+    
+    <div class="logo-final">
+        <a href="#"><img src="images/logo.png" width="150" height="85" alt=""></a>
+    </div>
+    <div>
+        <p class="follows">¡Siguenos <br> ahí encontraras mas información..! </p>
+    </div>
+    <div>
+        <ul class="footer-follow">
+                <div class="network">
+                  <a href=https://www.youtube.com/" target="_blank"><img class="mobilenetworkyou"  src="images/youtube.png" width="70" height="65" alt=""></a>
+                        <a href="https://www.linkedin.com/company/passionempleos"target="_blank"><img class="mobilenetwork"  src="images/linkedin1.png" width="70" height="65" alt=""></a>
+                        <a href="https://www.instagram.com/passionempleos/" target="_blank"><img class="mobilenetwork"  src="images/instagram1.png" width="70" height="65" alt=""></a>
+                        <a href="https://twitter.com/passionempleos" target="_blank"><img class="mobilenetwork"  src="images/twitter1.png" width="70" height="65" alt=""></a>
+                        <a href="https://api.whatsapp.com/send?phone=573224132452&text=&source=&data=" target="_blank"><img class="mobilenetwork"  src="images/whatsapp1.png" width="70" height="65" alt=""></a>
+                </div>    
+        </ul>
+    </div>
+    <div class="socialmedia">
+        <a href="#">Preguntas frecuentes</a> 
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Protección de datos</a>
+        <a href="#">Ayuda</a>
+    </div>
+
+    <div class="footer-copyright">
+        <p>Copyright © 2020. All Rights Reserved. Designed by<a class="credits" href="https://co.linkedin.com/in/alejandroguascabustos"target="_blank">Passion</a></p>
+    </div>
+</Footer>
+</html>
